@@ -766,12 +766,12 @@ cat > /usr/local/etc/xray/config/04_inbounds.json << END
             "xver": 2
           },
           {
-            "path": "/vmess-ws",
+            "path": "/xrayws",
             "dest": "@vmess-ws",
             "xver": 2
           },
           {
-            "path": "/trojan-ws",
+            "path": "/trojan",
             "dest": "@trojan-ws",
             "xver": 2
           },
@@ -930,7 +930,7 @@ cat > /usr/local/etc/xray/config/04_inbounds.json << END
       "streamSettings": {
         "wsSettings": {
           "acceptProxyProtocol": true,
-          "path": "/vmess-ws"
+          "path": "/xrayws"
         },
         "network": "ws",
         "security": "none"
@@ -959,7 +959,7 @@ cat > /usr/local/etc/xray/config/04_inbounds.json << END
       "streamSettings": {
         "wsSettings": {
           "acceptProxyProtocol": true,
-          "path": "/trojan-ws"
+          "path": "/trojan"
         },
         "network": "ws",
         "security": "none"
@@ -1393,12 +1393,12 @@ cat > /usr/local/etc/xray/config/04_inbounds.json << END
             "xver": 2
           },
           {
-            "path": "/vmess-ws",
+            "path": "/xrayws",
             "dest": "@vmess-ws",
             "xver": 2
           },
           {
-            "path": "/trojan-ws",
+            "path": "/trojan",
             "dest": "@trojan",
             "xver": 2
           },
@@ -1470,7 +1470,7 @@ cat > /usr/local/etc/xray/config/04_inbounds.json << END
       "streamSettings": {
         "wsSettings": {
           "acceptProxyProtocol": true,
-          "path": "/trojan-ws"
+          "path": "/trojan"
         },
         "network": "ws",
         "security": "none"
